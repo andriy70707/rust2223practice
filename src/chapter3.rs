@@ -9,6 +9,16 @@ fn test31() {
 }
 
 #[test]
+fn test398() {
+    let x = 1;
+    let y = 1;
+
+    let real = x + y;
+    let expected = 2;
+
+    assert_eq!(real, expected);
+}
+#[test]
 fn test399() {
     let x = 5;
     let y = 10;
