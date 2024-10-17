@@ -9,6 +9,8 @@ mod numbers5;
 mod numbers6;
 mod tree;
 mod tree2;
+mod numbers7;
+mod numbers8;
 
 fn main() {
     println!("Hello, world!");
