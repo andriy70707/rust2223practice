@@ -1,10 +1,14 @@
 #[test]
 fn main() {
-    let x = define_x();  // Отримуємо значення x з функції define_x
+    let x = define_x();
     println!("{}, world", x);
 }
 
-fn define_x() -> &'static str {  // Функція повертає значення типу &'static str
+fn define_x() -> &'static str {
     let x = "hello";
-    x  // Повертаємо значення x
+    x
 }
+
+
+//Код викликає функцію define_x(), яка повертає рядок "hello".
+// Цей рядок присвоюється змінній x, після чого виводиться у форматі "hello, world"
